@@ -1,4 +1,10 @@
-const name = document.getElementById('name')
-const form = document.getElementById('form')
-const givenname = document.getElementById('givenname')
-const lastname = document.getElementById('lastname') 
+document.getElementById("form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    var givenName = document.getElementById('givenname').value
+    var lastName = document.getElementById('lastname').value
+
+    console.log("First Name: " + givenName);
+    console.log("Last Name: " + lastName);
+})
+
+
