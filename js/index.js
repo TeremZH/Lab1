@@ -6,7 +6,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
     console.log("Last Name: " + lastName);
     var fullName = givenName + " " + lastName;
     var outPut = document.getElementById("name");
-    outPut.textContent = "Full Name: " + fullName;
+    outPut.textContent = fullName;
 })
 
 
